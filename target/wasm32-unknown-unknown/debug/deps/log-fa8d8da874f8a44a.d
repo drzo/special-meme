@@ -1,0 +1,10 @@
+/home/runner/workspace/target/wasm32-unknown-unknown/debug/deps/liblog-fa8d8da874f8a44a.rmeta: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/runner/workspace/target/wasm32-unknown-unknown/debug/deps/liblog-fa8d8da874f8a44a.rlib: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/runner/workspace/target/wasm32-unknown-unknown/debug/deps/log-fa8d8da874f8a44a.d: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs
+
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/lib.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/macros.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/serde.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.22/src/__private_api.rs:

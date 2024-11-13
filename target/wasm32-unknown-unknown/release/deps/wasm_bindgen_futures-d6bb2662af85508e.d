@@ -1,0 +1,9 @@
+/home/runner/workspace/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-d6bb2662af85508e.rmeta: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/queue.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/task/singlethread.rs
+
+/home/runner/workspace/target/wasm32-unknown-unknown/release/deps/libwasm_bindgen_futures-d6bb2662af85508e.rlib: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/queue.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/task/singlethread.rs
+
+/home/runner/workspace/target/wasm32-unknown-unknown/release/deps/wasm_bindgen_futures-d6bb2662af85508e.d: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/queue.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/task/singlethread.rs
+
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/lib.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/queue.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasm-bindgen-futures-0.4.45/src/task/singlethread.rs:

@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "chatbot/rusty",
+    "vm_integration/redox_vm",
+    "frontend/web_interface",
+]
+
+[profile.release]
+opt-level = 2
+lto = true

@@ -1,0 +1,13 @@
+using deprecated parameters for the initialization function; pass a single object instead
+Failed to send message: TypeError: Failed to fetch
+Failed to fetch
+at window.fetch (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218642)
+at imports.wbg.__wbg_fetch_bb5ee426272994d9 (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f.js:414:37)
+at web_interface_bin-00faa3ada51f11df.wasm.web_sys::features::gen_Window::Window::fetch_with_request::h36d9627df5700aa8 (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[1840]:0xfb306)
+at web_interface_bin-00faa3ada51f11df.wasm.gloo_net::http::request::Request::send::{{closure}}::h62dd10a16d7b3f90 (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[134]:0x2ea4b)
+at web_interface_bin-00faa3ada51f11df.wasm.<web_interface::Model as yew::html::component::Component>::update::{{closure}}::h921247a3ef9c0919 (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[118]:0x1b235)
+at web_interface_bin-00faa3ada51f11df.wasm.wasm_bindgen_futures::task::singlethread::Task::run::h5528c726430aa957 (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[569]:0xa1c5e)
+at web_interface_bin-00faa3ada51f11df.wasm.wasm_bindgen_futures::queue::QueueState::run_all::h00df6508deebc1da (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[428]:0x8c7ce)
+at web_interface_bin-00faa3ada51f11df.wasm.wasm_bindgen_futures::queue::Queue::new::{{closure}}::hb14f08b15ee1305b (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[2099]:0x104327)
+at web_interface_bin-00faa3ada51f11df.wasm.<dyn core::ops::function::FnMut<(A,)>+Output = R as wasm_bindgen::closure::WasmClosure>::describe::invoke::hc966ff5e7227ce1a (https://24be1794-5ca5-4650-b243-5a7fe7a9d9fb-00-3209duemqx6n2.janeway.replit.dev/web_interface_bin-83946c071c06371f_bg.wasm:wasm-function[1653]:0xf368d)
+at __wbg_adapter_22 (https://24

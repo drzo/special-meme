@@ -1,0 +1,71 @@
+modules = ["rust"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start CogRox"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start CogRox Chatbot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Serve Frontend"
+
+[[workflows.workflow]]
+name = "Start CogRox"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd frontend/web_interface && wasm-pack build --target web && cd ../../chatbot/rusty && cargo run"
+waitForPort = 8080
+
+[[workflows.workflow]]
+name = "Start CogRox Chatbot"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd chatbot/rusty && cargo run"
+waitForPort = 80
+
+[[workflows.workflow]]
+name = "Serve Frontend"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd frontend/web_interface && trunk serve --address 0.0.0.0 --port 3000"
+waitForPort = 3000
+
+[deployment]
+run = ["sh", "-c", "cd frontend/web_interface && wasm-pack build --target web && cd ../../chatbot/rusty && cargo run"]
+
+[[ports]]
+localPort = 80
+externalPort = 3000
+
+[[ports]]
+localPort = 3000
+externalPort = 80
